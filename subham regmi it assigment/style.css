@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e2e0e0;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 100px;
+  z-index: 2;
+}
+.logo {
+  height: 70px;
+  width: 100px;
+}
+nav label {
+  color: rgb(66, 153, 74);
+  font-size: 22px;
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 0px 12px;
+}
+.navv {
+  color: #000000;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 40;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+}
+.navv:hover,
+.active {
+  color: rgb(66, 153, 74);
+}
+.imageSlider {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.imageSlider img {
+  height: 670px;
+  width: 1400px;
+}
+.productDetail {
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer1{
+    height: 300px;
+    background-color: rgb(233, 238, 235);
+}
+.navLinkForFooter{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    margin: 0;
+}
+.footer{
+    background-color:rgb(233, 238, 235);
+    text-align: center;
+    height: 30px;
+}
